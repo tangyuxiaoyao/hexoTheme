@@ -84,3 +84,14 @@ awk -F'\t' '{a[substr($1, 1, 7)] += 1}END{for (i in a){printf "%s %d\n", i, a[i]
 ```
 
 + 以上实现的是根据月份分组统计频次。
+
+
+## linux访问NTFS盘报错
+
++ 报错:no object for d-bus interface
++ 解决方案:
+
+``` shell
+fuser -mvk /home
+```
+
