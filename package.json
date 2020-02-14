@@ -25,6 +25,6 @@
     "hexo-server": "^0.2.2",
     "live2d-widget-model-shizuku": "^1.0.5",
     "or": "^0.2.0",
-    "yarn": "^1.16.0"
+    "yarn": "^1.22.0"
   }
 }
